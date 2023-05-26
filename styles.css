@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Nunito', sans-serif
+}
+section{
+  min-height: 100vh;
+  padding-left: 10px;
+ 
+}
+header,footer{
+  position:sticky;
+  z-index:1;
+}
+header{
+  top:0;
+  display:flex;
+  background-color:#333;
+  color:lime;
+  justify-content:end;
+  height:50px;
+  font-size:2rem;
+  white-space: nowrap;
+  border-bottom: 1px lightgrey solid;
+  border-radius: 2px;
+  align-items: end;
+}
+footer{
+  bottom:0;
+  height:30px;
+  display:flex;
+  justify-content:space-evenly;
+  background-color:#333;
+  color:lime;
+  font-size:2rem;
+  margin-bottom: 2px;
+}
+.first-page{
+  background-image: url(img/pexels-mohamed-abdelghaffar-771742.jpg);
+  background-size: 50% auto;
+  background-position:  right;
+  background-color:#333;
+  background-repeat: no-repeat;
+  min-width:100px;
+}
+a,a:visited,a:hover{
+  text-decoration: none;
+  color:inherit;
+}
+.intro{
+  width:50%;
+  height:100px;
+  font-size: 3.5rem;
+  margin:0 10px;
+  padding-top:100px;
+  padding-left:40px;
+  z-index: 1;
+  color:lightgrey
+}
+.name{
+  display:block;
+  white-space: nowrap;
+  font-weight: bolder;
+  color:rgb(243, 238, 238);
+}
+.hello{
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+.contact-button{
+  color:lime;
+  background-color: dimgray;
+  padding: 10px;
+  border:2px lime outset;
+  border-radius: 3px;
+  font:2rem;
+}
+.header-name{
+  margin-right:550px;
+  display:inline-block;
+
+}

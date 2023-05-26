@@ -8,24 +8,30 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-      <div>My Name</div>
-      <a href="#about" >About Me</a>
-      <a href="#projects" >My Projects</a>
-    <button> 
-      <a href="#contacts">Contact Me</a>
-    </button>
-      </header>
-      <main>
-  <!--LANDING PAGE-->
+    <header>
+      <div><div class="header-name">Rathez</div>
+        <a href="#">Home</a>
+        <a href="#about" >About </a>
+        <a href="#projects" > Projects</a>
+    </div>
+    </header>
 
-    <section>
-       <div>Hello I'm <span>Ratemo Hezron</span> Front End Web  Developer</div>
+      <!--LANDING PAGE-->
+  
+      <main>
+        <section id="landing-page" class="first-page">
+      <div class="intro"><span class="hello">Hello</span><span class="name">I'm  <span style="color:lime">Rathez</span></span> Front End Web  Developer
+    <p>
+      <button class="contact-button">
+        <a href="#contacts">Contact Me</a>
+      </button>
+     </p>
+    </div>
     </section>
 
     <!--ABOUT PAGE-->
 
-    <section>
+    <section id="about" class="about-page">
       <div>I am a Front-End Web Developer passionate about creating and designing beautiful websites.</div>
       <div>I  have a certificate in graphic design and hold a Diploma in Software Engineering...I have also worked with big tech companies such as Apple ,Amazon,FlutterWave </div>
       <div>I love travelling ,music and raeding books ..But most of all i love designing and  programming!</div>
@@ -33,51 +39,52 @@
       <p>Click here to learn more about <a href="#">DirectEd foundation</a></p>
     </section>
     
-  <!--MY PROJECTS-->
-    <section>
-      <p>Here are some of the projects I have worked on:</p>
-      <dl>
-        <dt>The Little Taco Shop with HTML</dt>
-          <dd>A dummy weebsite made solely by <a href="">HTML</a></dd>
-        <dt>Tacos Shop with HYML and CSS </dt>
-          <dd>The Tacos Shop website designed by <a href="">CSS</a></dd>
-        <dt> Acme Rockets with Tailwindcss</dt>
-          <dd>A Rockets website styled with<a href="">TailwindCss</a></dd>
-      
-      </dl>
-    </section>
+    <!--MY PROJECTS-->
+        <section id="projects" class="project-page">
+          <p>Here are some of the projects I have worked on:</p>
+          <dl>
+            <dt>The Little Taco Shop with HTML</dt>
+              <dd>A dummy weebsite made solely by <a href="">HTML</a></dd>
+            <dt>Tacos Shop with HYML and CSS </dt>
+              <dd>The Tacos Shop website designed by <a href="">CSS</a></dd>
+            <dt> Acme Rockets with Tailwindcss</dt>
+              <dd>A Rockets website styled with<a href="">TailwindCss</a></dd>
+          
+          </dl>
+        </section>
 
-       <!--CONTACT ME PAGE-->
+      <!--CONTACT ME PAGE-->
 
-      <section>
-       <form>
-        <h2>CONTACT ME</h2>
-        <fieldset>
-          <legend>Reach Out To Me </legend>
-       
-        <p>Name:
-           <input type="text" name="name" autocomplete="on" required>
-         </p>
-         <p>Email:
-          <input type="text" name="Email" autocomplete="on" required autofocus >
-         </p>
-        <p>Message:
-          <br>
-          <textarea name="message" placeholder="Send me a message">
-          </textarea>
-      </fieldset>
-      </p>
-       </form>
-      </section>
-      </main>
+        <section id="contacts" class="contact-page">
+        <form>
+          <h2>CONTACT ME</h2>
+          <fieldset>
+            <legend>Reach Out To Me </legend>
+        
+          <p>Name:
+            <input type="text" name="name" autocomplete="on" required>
+          </p>
+          <p>Email:
+            <input type="text" name="Email" autocomplete="on" required autofocus >
+          </p>
+          <p>Message:
+            <br>
+            <textarea name="message" placeholder="Send me a message">
+            </textarea>
+        </fieldset>
+        </p>
+        </form>
+        </section>
+        <p><a href="#landing-page">Back to Home Page</a></p>
+        </main>
 
-<footer>
+  <footer>
     <div>Follow me on 
       <a href="twitter">Twitter</a>
       <a href="facebook">Facebook</a>
       <a href="instagram">Instagram</a>
       <a href="linkedin">Linkedin</a>
     </div>
-  </footer>
+    </footer>
 </body>
 </html>
