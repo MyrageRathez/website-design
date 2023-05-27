@@ -20,7 +20,7 @@
   
       <main>
         <section id="landing-page" class="first-page">
-      <div class="intro"><span class="hello">Hello</span><span class="name">I'm  <span style="color:lime">Rathez</span></span> Front End Web  Developer
+      <div class="intro"><span class="hello">Hello</span><span class="name">I'm  <span style="color:lime"> Rathez</span></span> Front End Web  Developer
     <p>
       <button class="contact-button">
         <a href="#contacts">Contact Me</a>
@@ -28,59 +28,64 @@
      </p>
     </div>
     </section>
+    <hr>
 
     <!--ABOUT PAGE-->
 
-    <section id="about" class="about-page">
+    <section id="about" >
+      <h1>ABOUT ME</h1>
+      <div class="about-page">
       <div>I am a Front-End Web Developer passionate about creating and designing beautiful websites.</div>
-      <div>I  have a certificate in graphic design and hold a Diploma in Software Engineering...I have also worked with big tech companies such as Apple ,Amazon,FlutterWave </div>
-      <div>I love travelling ,music and raeding books ..But most of all i love designing and  programming!</div>
-      <div>I decided to learn programming with DirectEd as it offered me a chance to hone my programming skills and at the same time learn  new tech-related skills. It also gave me a chance to take up challenging tasks that enabled me to push myself to the extreme and  hence  improve. </div>
-      <p>Click here to learn more about <a href="#">DirectEd foundation</a></p>
+      <div>I  have a <strong>certificate in graphic design</strong> and hold a <strong>Diploma in Software Engineering</strong>...I have also worked with big tech companies such as Apple ,Amazon,FlutterWave </div>
+      <div>I love travelling ,music and reading books ..But most of all i love designing and  programming!</div>
+      <div >I decided to learn programming with <strong>DirectEd</strong> as it offered me a chance to hone my programming skills and at the same time learn  new tech-related skills. It also gave me a chance to take up challenging tasks that enabled me to push myself to the extreme and  hence  improve my coding skills. </div>
+      </div>
     </section>
+    <hr>
     
     <!--MY PROJECTS-->
-        <section id="projects" class="project-page">
+        <section id="projects" class="projects-page">
+          <h1> MY PROJECTS</h1>
           <p>Here are some of the projects I have worked on:</p>
           <dl>
-            <dt>The Little Taco Shop with HTML</dt>
-              <dd>A dummy weebsite made solely by <a href="">HTML</a></dd>
-            <dt>Tacos Shop with HYML and CSS </dt>
-              <dd>The Tacos Shop website designed by <a href="">CSS</a></dd>
-            <dt> Acme Rockets with Tailwindcss</dt>
-              <dd>A Rockets website styled with<a href="">TailwindCss</a></dd>
-          
+            <dt>1. The Little Taco Shop with HTML</dt>
+              <dd>~A dummy website made solely by <a href="">HTML</a></dd>
+            <dt>2. Tacos Shop with HTML and CSS </dt>
+              <dd>~The Tacos Shop website designed by <a href="tacos-website">CSS</a></dd>
+            <dt>3. Acme Rockets with Tailwindcss</dt>
+              <dd>~A Rockets website styled with<a href="">TailwindCss</a></dd>
           </dl>
         </section>
+        <hr>
 
       <!--CONTACT ME PAGE-->
 
         <section id="contacts" class="contact-page">
         <form>
-          <h2>CONTACT ME</h2>
-          <fieldset>
-            <legend>Reach Out To Me </legend>
-        
-          <p>Name:
-            <input type="text" name="name" autocomplete="on" required>
-          </p>
-          <p>Email:
-            <input type="text" name="Email" autocomplete="on" required autofocus >
-          </p>
-          <p>Message:
-            <br>
-            <textarea name="message" placeholder="Send me a message">
+          <h1>CONTACT ME</h1>
+          <fieldset class="contact_fieldset">
+          <p>Name:</p>
+            <input type="text" name="name" placeholder="Your name" autocomplete="on" required class="contact_input"> 
+          <p>Email:</p>
+            <input type="text" name="Email" placeholder="Your Email" autocomplete="on" class="contact_input" required autofocus >
+          <label for="message" class="contact_message">Message:</label>
+            <textarea name="message" class="contact_textarea" placeholder="Send me a message">
             </textarea>
+            <p>
+              <button class="contact_button" type="submit">Send</button>
+            <button class="contact_button" type="reset">Reset</button>
+            </p>
         </fieldset>
         </p>
         </form>
+        <p class="homelink"><a href="#landing-page">Back to Home Page</a></p>
         </section>
-        <p><a href="#landing-page">Back to Home Page</a></p>
+        <hr>
         </main>
 
   <footer>
-    <div>Follow me on 
-      <a href="twitter">Twitter</a>
+    <div>Follow me on:
+      <a href="twitter"><img href="icons/twitter-icon.png"></a>
       <a href="facebook">Facebook</a>
       <a href="instagram">Instagram</a>
       <a href="linkedin">Linkedin</a>
